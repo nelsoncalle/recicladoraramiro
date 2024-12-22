@@ -1,0 +1,89 @@
+body {
+    font-size: 20px;
+    background-color: #D9D9D9;
+}
+
+h1{
+    font-size: 1em;
+}
+
+/* Estilos generales para escritorio */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #D9D9D9;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+
+.menu ul {
+    display: flex;
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #3F403E;
+}
+
+.telefono a {
+    text-decoration: none;
+    color: #3F403E;
+}
+
+/* nav{
+
+} */
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    
+    h1{
+        font-size: 1em;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+  
+
+    .logo {
+        width: 100px; /* Tamaño del logo en dispositivos móviles */
+    }
+
+    .menu ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+    }
+
+    .telefono {
+        margin-top: 10px;
+    }
+   
+}
