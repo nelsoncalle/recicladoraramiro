@@ -45,7 +45,16 @@ header {
     color: #3F403E;
 }
 
-.whatsApp{
+.socialiconos{
+    display: flex;
+    align-items: center;
+}
+
+.socialiconos a { 
+    margin-right: 10px; 
+}
+
+.whatsApp, .facebook{
     width: 22px;
 }
 
