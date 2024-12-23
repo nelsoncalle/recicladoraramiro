@@ -45,14 +45,9 @@ header {
     color: #3F403E;
 }
 
-.telefono a {
-    text-decoration: none;
-    color: #3F403E;
+.whatsApp{
+    width: 22px;
 }
-
-/* nav{
-
-} */
 
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
@@ -83,7 +78,7 @@ header {
         font-size: 1.1rem;
     }
 
-    .telefono {
+    .iconos {
         margin-top: 10px;
     }
    
