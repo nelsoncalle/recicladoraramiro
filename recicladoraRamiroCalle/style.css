@@ -58,6 +58,13 @@ header {
     width: 23px;
 }
 
+
+.paytone-one-regular {
+    font-family: "Paytone One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
     
@@ -92,3 +99,6 @@ header {
     }
    
 }
+
+
+  
