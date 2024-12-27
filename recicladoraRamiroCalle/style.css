@@ -66,6 +66,10 @@ header {
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
     
+    .logo {
+        width: 100px; /* Tamaño del logo en dispositivos móviles */
+    }
+
     h1{
         font-size: 0.8em;
     }
@@ -74,11 +78,9 @@ header {
         flex-direction: column;
         align-items: flex-start;
     }
-    
-  
 
-    .logo {
-        width: 100px; /* Tamaño del logo en dispositivos móviles */
+    .logo-container{
+        margin-left: 5px;
     }
 
     .menu ul {
@@ -94,6 +96,10 @@ header {
 
     .iconos {
         margin-top: 10px;
+    }
+
+    .menu, .socialiconos{
+        margin-left: 20px;
     }
    
 }
