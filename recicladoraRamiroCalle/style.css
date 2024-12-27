@@ -12,6 +12,10 @@ h1{
     font-weight: 400; 
 }
 
+.icono-hamburguesa{
+    display: none;
+}
+
 /* Estilos generales para escritorio */
 header {
     display: flex;
@@ -79,6 +83,12 @@ header {
         align-items: flex-start;
     }
 
+    .icono-hamburguesa{
+        display: flex;
+        margin-left: 15px;
+        width: 25px;
+        cursor: pointer;
+    }
     .logo-container{
         margin-left: 5px;
     }
