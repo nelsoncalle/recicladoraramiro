@@ -97,9 +97,9 @@ header {
         display: none;
     }
 
-    /* .menu.active, .socialiconos.active{
+    .menu.active, .socialiconos.active{
         display:block ;
-    } */
+    }
     .menu ul {
         flex-direction: column;
         width: 100%;
