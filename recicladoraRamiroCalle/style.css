@@ -93,6 +93,9 @@ header {
         margin-left: 5px;
     }
 
+    .menu, .socialiconos{
+        display: none;
+    }
     .menu ul {
         flex-direction: column;
         width: 100%;
