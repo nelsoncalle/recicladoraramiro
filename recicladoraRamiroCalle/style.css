@@ -72,6 +72,8 @@ footer{
     text-align: center;
     padding: 10px;
     height: 100px;
+    color:#D9D9D9;
+    font-size: 0.8em;
 }
 
 /* Media query para dispositivos móviles */
@@ -128,6 +130,7 @@ footer{
     
     footer{
         height: 240px;
+        
     }
    
 }
