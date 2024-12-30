@@ -67,6 +67,13 @@ header {
     width: 23px;
 }
 
+footer{
+    background-color: #034C8C;
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+}
+
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
     
@@ -118,8 +125,14 @@ header {
     .menu, .socialiconos{
         margin-left: 20px;
     }
+    
+    footer{
+        height: 240px;
+    }
    
 }
+
+
 
 
   
