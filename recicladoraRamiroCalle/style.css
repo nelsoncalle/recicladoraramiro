@@ -83,7 +83,7 @@ footer{
     height: 100px;
     color:#D9D9D9;
     font-size: 0.8em;
-    margin-top: 500px; /* Espacio de 2em encima del footer */
+    margin-top: 500px; 
 }
 
 
@@ -142,6 +142,10 @@ footer{
     
     footer{
         height: 240px;       
+    }
+    
+    .piepagina{
+        padding-top: 50px;
     }
     
    
