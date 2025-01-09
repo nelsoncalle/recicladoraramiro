@@ -77,7 +77,18 @@ a {
 }
 
 .texto1{
-    size: 23;
+    font-size: 23px;
+    color: #A6775B;
+}
+
+.texto2{
+    font-size: 28px;
+    color: #024873;
+}
+
+.texto3{
+    font-size: 15px;
+    color: #3F403E;
 }
 
 footer{
@@ -143,6 +154,14 @@ footer{
     .menu, .socialiconos{
         margin-left: 20px;
     }
+
+ 
+
+    .principal .texto1, .texto2, .texto3{
+        font-size: 0.7em;
+    }
+
+   
     
     footer{
         height: 240px;       
