@@ -72,9 +72,18 @@ a {
     color: inherit; 
 }
 
+.container{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
 .principal{
     flex: 1;
-    padding: 25px;
+}
+
+.principal-lado{
+    display: flex;
 }
 
 .texto1{
@@ -102,8 +111,6 @@ a {
     height: 150px;
     border-radius: 50%;
     overflow: hidden; 
-   /*  position: absolute; 
-    animation: spin 5s linear infinite; */
 }
 
 footer{
@@ -173,6 +180,34 @@ footer{
     .principal .texto1, .texto2, .texto3{
         font-size: 0.7em;
     }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    .principal-lado{
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .imagesportada{
+        width: 110px;
+        height: 90px;
+    }
+    
+    .circle{
+        width: 110px;
+        height: 90px;
+        border-radius: 50%;
+        overflow: hidden; 
+    }
+
+  
+
+  
+
+  
 
     footer{
         height: 240px;       
