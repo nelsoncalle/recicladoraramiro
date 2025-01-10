@@ -92,6 +92,20 @@ a {
     color: #3F403E;
 }
 
+.imagesportada{
+    width: 160px;
+    height: 150px;
+}
+
+.circle{
+    width: 160px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden; 
+   /*  position: absolute; 
+    animation: spin 5s linear infinite; */
+}
+
 footer{
     background-color: #034C8C;
     text-align: center;
