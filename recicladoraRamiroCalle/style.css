@@ -111,6 +111,7 @@ a {
     height: 150px;
     border-radius: 50%;
     overflow: hidden; 
+    margin: 0.8rem;
 }
 
 footer{
@@ -201,6 +202,7 @@ footer{
         height: 90px;
         border-radius: 50%;
         overflow: hidden; 
+        margin: 0.2rem;
     }
 
   
