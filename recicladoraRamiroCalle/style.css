@@ -75,7 +75,7 @@ a {
 .container{
     display: flex;
     align-items: center;
-    padding: 25px;
+    padding: 30px;
 }
 
 .principal{
@@ -83,6 +83,7 @@ a {
 }
 
 .principal-lado{
+    /* margin-left: 10px; */
     display: flex;
 }
 
@@ -179,7 +180,7 @@ footer{
     }
 
     .principal .texto1, .texto2, .texto3{
-        font-size: 0.7em;
+        font-size: 0.63em;
     }
 
     .container{
@@ -193,23 +194,17 @@ footer{
     }
 
     .imagesportada{
-        width: 110px;
-        height: 90px;
+        width: 90px;
+        height: 80px;
     }
     
     .circle{
-        width: 110px;
-        height: 90px;
+        width: 90px;
+        height: 80px;
         border-radius: 50%;
         overflow: hidden; 
-        margin: 0.2rem;
+        margin: 0.14rem;
     }
-
-  
-
-  
-
-  
 
     footer{
         height: 240px;       
