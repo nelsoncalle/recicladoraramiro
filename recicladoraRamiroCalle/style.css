@@ -61,10 +61,15 @@ header {
 
 .socialiconos a { 
     margin-right: 20px; 
+    transition: transform 0.05s ease;
 }
 
 .whatsApp, .facebook, .instagram, .correo{
     width: 23px;
+}
+
+.socialiconos img:hover{
+    transform: scale(1.2);
 }
 
 a { 
