@@ -51,6 +51,11 @@ header {
 .menu ul li a {
     text-decoration: none;
     color: #3F403E;
+    transition: color 0.05s ease;
+}
+
+.menu ul li a:hover{
+    color: #A6775B;
 }
 
 .socialiconos{
