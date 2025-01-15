@@ -56,6 +56,7 @@ header {
 
 .menu ul li a:hover{
     color: #A6775B;
+    text-decoration: underline;
 }
 
 .socialiconos{
@@ -160,27 +161,32 @@ footer{
         width: 25px;
         cursor: pointer;
     }
+
     .logo-container{
         margin-left: 5px;
     }
 
     .menu, .socialiconos{
-        display: none;
+        max-height: 0px;
+        overflow: hidden; 
+        transition: max-height 1s ease-out;
     }
 
     .menu.active, .socialiconos.active{
-        display:block ;
+        max-height: 500px;
     }
+
     .menu ul {
         flex-direction: column;
         width: 100%;
-        /* margin-left: 10px; */
     }
 
     .menu ul li {
         margin-bottom: 10px;
         font-size: 1.1rem;
     }
+
+       
 
     .iconos {
         margin-top: 10px;
