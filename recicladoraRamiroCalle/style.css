@@ -61,12 +61,12 @@ header {
 
 .socialiconos a { 
     margin-right: 20px; 
-    transition: transform 0.5s ease;
-    transform-origin: center;
 }
 
 .whatsApp, .facebook, .instagram, .correo{
     width: 23px;
+    transition: transform 2s ease;
+    transform-origin: center;
 }
 
 .socialiconos img:hover{
