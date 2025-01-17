@@ -126,6 +126,7 @@ a {
     border-radius: 50%;
     overflow: hidden; 
     margin: 0.8rem;
+    animation: float 5s ease-in-out infinite;
 }
 
 footer{
@@ -139,6 +140,11 @@ footer{
 }
 
 
+@keyframes float { 
+    0% { transform: translateY(0); } 
+    50% { transform: translateY(-20px); } 
+    100% { transform: translateY(0); }
+}
 
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
