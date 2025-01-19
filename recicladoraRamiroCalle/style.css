@@ -115,6 +115,10 @@ a {
     color: #3F403E;
 }
 
+.negrita{
+    font-weight: 500;
+}
+
 .imagesportada{
     width: 160px;
     height: 150px;
