@@ -99,7 +99,9 @@ a {
 
 .containerdos{
     background-color: #A6775B;
-    display:flex;   
+    display:flex; 
+    padding: 30px; 
+    align-items: center; 
 }
 
 .principal{
@@ -163,15 +165,17 @@ footer{
 
 
 .portada{
+    width: 500px;
+    height: 300px;
     color: #FFFFFF;
     padding: 30px;
+    padding-right: 200px;
 }
 
 .imagenPortadas{
-        width: 500px;
-        height: 300px;
-        padding: 30px;
-        /* border-radius: 30px; */
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
 }
 
 /* Media query para dispositivos móviles */
