@@ -161,6 +161,19 @@ footer{
     100% { transform: translateY(0); }
 }
 
+
+.portada{
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+.imagenPortadas{
+        width: 500px;
+        height: 300px;
+        padding: 30px;
+        /* border-radius: 30px; */
+}
+
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
     
