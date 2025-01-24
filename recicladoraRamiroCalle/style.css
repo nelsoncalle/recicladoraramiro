@@ -98,6 +98,7 @@ a {
 }
 
 .containerdos{
+    display: flex;
     background-color: #A6775B;
     display:flex; 
     padding: 30px; 
@@ -165,17 +166,25 @@ footer{
 
 
 .portada{
-    width: 500px;
-    height: 300px;
+    flex: 1;
     color: #FFFFFF;
     padding: 30px;
-    padding-right: 200px;
+}
+
+.portadados{
+    display: flex;
 }
 
 .imagenPortadas{
     width: 500px;
     height: 300px;
     border-radius: 30px;
+}
+
+
+footer{
+    height: 100px; 
+    width: auto;      
 }
 
 /* Media query para dispositivos móviles */
@@ -244,6 +253,15 @@ footer{
         align-items: center;
         padding: 15px;
     }
+
+    .containerdos{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+
+
     .principal-lado{
         flex-direction: row;
         padding: 10px;
@@ -261,6 +279,21 @@ footer{
         overflow: hidden; 
         margin: 0.14rem;
     }
+
+    .portada{
+        width: 220px;
+        height: 160px;
+    }
+
+    .imagenPortadas{
+        width: 220px;
+        height: 160px;
+    }
+
+    .portada .texto4, .texto5, .texto6{
+        font-size: 0.63em;
+    }
+
 
     footer{
         height: 240px;       
