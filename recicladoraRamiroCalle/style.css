@@ -103,8 +103,8 @@ a {
     align-items: center;
     padding-right: 60px;
     padding-left: 60px;
-    /* min-width: 100%;
-    transition: transform 0.1s ease-in-out; */
+    min-width: 100%;
+    transition: transform 0.1s ease-in-out;
 }
 
 .principal{
@@ -158,7 +158,7 @@ footer{
     margin-top: 500px; 
 }
 
-/* .carousel {
+.carousel {
     display: flex;
     overflow: hidden;
     width: 100%;
@@ -167,9 +167,9 @@ footer{
 
 .carousel-inner {
     display: flex;
-    width: 400%;
+    width: 90%;
     animation: slide 16s infinite;
-} */
+}
 
 
 
@@ -198,6 +198,7 @@ footer{
 
 .portadados{
     display: flex;
+    flex: 1;
 }
 
 .imagenPortadas{
