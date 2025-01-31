@@ -172,17 +172,6 @@ footer{
 }
 
 
-
-@keyframes slide {
-    0% { transform: translateX(0); }
-    25% { transform: translateX(-100%); }
-    50% { transform: translateX(-200%); }
-    75% { transform: translateX(-300%); }
-    100% { transform: translateX(0); }
-}
-
-
-
 @keyframes float { 
     0% { transform: translateY(0); } 
     50% { transform: translateY(-20px); } 
@@ -200,6 +189,7 @@ footer{
     display: flex;
     flex: 1;
 }
+
 
 .imagenPortadas{
     width: 500px;
@@ -225,6 +215,15 @@ footer{
     color: #024873;
 }
 
+
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    100% { transform: translateX(-325%); }
+}
 
 footer{
     height: 100px; 
