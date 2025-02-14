@@ -265,7 +265,12 @@ footer{
     }
 
     .formulario{
-        width: 300px;
+        width: 290px;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .formulario div{
+        width: 100%;
     }
 
     input, textarea {
@@ -278,8 +283,15 @@ footer{
         padding-right: 0%;
     }
 
+
+    .whatsapp-button {
+        left: 270px;
+        margin-bottom: 20px;
+    }
+
     footer{
-        height: 240px;       
+        margin-top: 180px;
+        height: 150px;       
     }
     
     .piepagina{
