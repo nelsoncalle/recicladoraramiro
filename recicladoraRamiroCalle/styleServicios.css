@@ -98,13 +98,15 @@ a {
     height: 400px;
     margin: 20px;
     background-color: #A6775B;
+    border-radius: 12px;
 }
 #caja2{
     float: left;
     width: 500px;
     height: 400px;
     margin: 20px;
-    background-color: #A6775B;
+    background-color: #A6775B; 
+    border-radius: 12px;
 }
 
 #caja3{
@@ -113,6 +115,7 @@ a {
     height: 400px;
     margin: 20px;
     background-color: #A6775B;
+    border-radius: 12px;
 }
 
 #caja4{
@@ -121,6 +124,7 @@ a {
     height: 400px;
     margin: 20px;
     background-color: #A6775B;
+    border-radius: 12px;
 }
 
 
