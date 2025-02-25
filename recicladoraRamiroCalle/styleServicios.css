@@ -86,10 +86,41 @@ a {
 }
 
 
+#cajapadre{
+    width: 600px;
+    border: 1px solid;
+}
 
+#caja1{
+    float: left;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: #A6775B;
+}
+#caja2{
+    float: left;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: #A6775B;
+}
 
+#caja3{
+    float: left;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: #A6775B;
+}
 
-
+#caja4{
+    float: left;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: #A6775B;
+}
 
 
 
