@@ -87,38 +87,39 @@ a {
 
 
 #cajapadre{
-    width: 600px;
-    border: 1px solid;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
 }
 
 #caja1{
     float: left;
-    width: 140px;
-    height: 50px;
-    margin: 5px;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
     background-color: #A6775B;
 }
 #caja2{
     float: left;
-    width: 140px;
-    height: 50px;
-    margin: 5px;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
     background-color: #A6775B;
 }
 
 #caja3{
     float: left;
-    width: 140px;
-    height: 50px;
-    margin: 5px;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
     background-color: #A6775B;
 }
 
 #caja4{
     float: left;
-    width: 140px;
-    height: 50px;
-    margin: 5px;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
     background-color: #A6775B;
 }
 
