@@ -240,24 +240,24 @@ footer{
         margin-left: 20px;
     }
 
-    .formulario{
-        width: 290px;
-        margin: 20px 20px 20px 20px;
+    #cajapadre{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 1500px;
     }
 
-    .formulario div{
+    #caja1, #caja2, #caja3, #caja4 {
         width: 100%;
+        height: auto;
+        margin: 10px 0;
+        margin-bottom: 35px;
     }
-
-    input, textarea {
-       width: 250px;
-       align-items: center;
-    }
-
-    .form{
-        padding-left: 0%;
-        padding-right: 0%;
-    }
+    
 
 
     .whatsapp-button {
@@ -266,7 +266,7 @@ footer{
     }
 
     footer{
-        margin-top: 400px;
+        margin-top: 40px;
         height: 150px;       
     }
     
