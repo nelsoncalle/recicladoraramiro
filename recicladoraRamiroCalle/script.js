@@ -8,5 +8,16 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const currentPage = window.location.pathname.split("/").pop(); // Obtiene solo el nombre del archivo
+    const menuLinks = document.querySelectorAll('.menu ul li a');
+
+    menuLinks.forEach(link => {
+        if (link.getAttribute('href') === currentPage) {
+            link.classList.add('active'); // Añade la clase 'active' al enlace correspondiente
+        }
+    });
+});
+
 
 

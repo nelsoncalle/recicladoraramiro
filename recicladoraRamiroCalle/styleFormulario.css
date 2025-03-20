@@ -203,7 +203,10 @@ footer{
     font-size: 30px;
 }
 
-
+.menu ul li a.active {
+    color: #A6775B; /* Esto define el color café */
+    font-weight:lighter; /* Opcional: resaltar el enlace */
+}
 
 
 

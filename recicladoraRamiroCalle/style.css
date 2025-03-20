@@ -316,6 +316,13 @@ footer{
   }
 
 
+  .menu ul li a.active {
+    color: #A6775B; /* Esto define el color café */
+    font-weight:lighter; /* Opcional: resaltar el enlace */
+}
+
+
+
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
     
