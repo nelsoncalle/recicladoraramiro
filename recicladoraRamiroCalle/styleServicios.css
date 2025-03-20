@@ -264,7 +264,8 @@ footer{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        height: 1500px;
+        height: 1900px;
+        width: 350px;
     }
 
     #caja1, #caja2, #caja3, #caja4 {
