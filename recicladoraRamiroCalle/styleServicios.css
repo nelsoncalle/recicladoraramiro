@@ -135,10 +135,11 @@ a {
 }
 
 #cajapadre p {
-    margin: 10px 0;
+    margin: 20px 0;
     color: #ffffff;
     font-size: 16px;
     margin-left: 10px;
+    margin-right: 6px;
     font-family: 'Roboto', sans-serif; 
     text-align: center;
 }
@@ -146,7 +147,9 @@ a {
 #cajapadre .descripcion{
     font-size: 13.5px;
     color: #D9D9D9;
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -276,13 +279,15 @@ footer{
         width: 350px;
     }
 
+    #cajapadre p {
+        margin: 10px 0;
+    }
+
     #caja1, #caja2, #caja3, #caja4 {
         height: 330px;
         margin: 10px 0;
         margin-bottom: 35px;
     }
-    
-
 
     .whatsapp-button {
         left: 270px;
