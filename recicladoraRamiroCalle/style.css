@@ -104,7 +104,11 @@ a {
     padding-right: 60px;
     padding-left: 60px;
     min-width: 100%;
-    transition: transform 0.1s ease-in-out;
+    transition: transform 2ms ease-in-out;
+}
+
+.containerdos p{
+    letter-spacing: 1.2px;
 }
 
 .principal{
@@ -202,7 +206,7 @@ footer{
 }
 
 .texto4{
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 100;
 }
 
