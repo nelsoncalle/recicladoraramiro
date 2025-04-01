@@ -104,6 +104,8 @@ a {
     padding-right: 60px;
     padding-left: 60px;
     min-width: 100%;
+
+    border-radius: 10px;
     transition: transform 2ms ease-in-out;
 }
 
@@ -221,6 +223,8 @@ footer{
 
 
 
+
+
 @keyframes slide {
     0% { transform: translateX(0); }
     10% { transform: translateX(-5%); }
@@ -293,7 +297,7 @@ footer{
     padding: 15px 30px;
     border: none;
     border: 2px solid white;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     font-size: 25px;
     transition: all 0.3s ease;
