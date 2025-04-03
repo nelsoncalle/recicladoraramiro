@@ -21,3 +21,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+
+document.addEventListener("DOMContentLoaded", function () {
+    ScrollReveal().reveal('#cajapadre div', {
+        delay: 200,       // Retraso en ms
+        distance: '50px', // Distancia del desplazamiento
+        duration: 1000,   // Duración de la animación en ms
+        origin: 'bottom', // Dirección desde donde aparece
+        easing: 'ease-in-out',
+        interval: 300     // Hace que aparezcan progresivamente
+    });
+});
+
