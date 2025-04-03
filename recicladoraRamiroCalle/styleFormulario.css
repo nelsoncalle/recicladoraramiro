@@ -203,6 +203,16 @@ footer{
     font-size: 30px;
 }
 
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.whatsapp-button {
+    animation: heartbeat 1.5s infinite;
+}
+
 .menu ul li a.active {
     color: #A6775B; /* Esto define el color café */
     font-weight:lighter; /* Opcional: resaltar el enlace */
