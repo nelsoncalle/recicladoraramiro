@@ -13,4 +13,12 @@ h2{
 section p {
     text-align: justify;
     font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 25px; 
 }
+
+
+.container {
+    text-align: center;
+}
+
