@@ -33,3 +33,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+document.querySelectorAll(".articles article").forEach((article) => {
+    article.addEventListener("mouseenter", function () {
+      if (!this.classList.contains("girado")) {
+        this.style.transform = "rotateX(360deg)";
+        this.classList.add("girado");
+      }
+    });
+  });
+
+  
+ 
