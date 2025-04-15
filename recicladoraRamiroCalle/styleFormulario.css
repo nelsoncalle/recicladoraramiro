@@ -218,6 +218,17 @@ footer{
     font-weight:lighter; /* Opcional: resaltar el enlace */
 }
 
+.form input,
+.form textarea {
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #4CAF50; /* Color verde */
+  box-shadow: 0px 0px 8px rgba(76, 175, 80, 0.7);
+}
 
 
 /* Media query para dispositivos móviles */
