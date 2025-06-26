@@ -1,0 +1,476 @@
+body {
+    font-size: 20px;
+    background-color: #D9D9D9;
+    margin: 0px;
+    font-family: "Paytone One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size: 1em;
+    font-weight: 400; 
+}
+
+.icono-hamburguesa{
+    display: none;
+}
+
+/* Estilos generales para escritorio */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.logo-container {
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 70px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+
+.menu ul {
+    display: flex;
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.menu ul li {
+    margin-right: 30px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #3F403E;
+    transition: color 0.05s ease;
+}
+
+.menu ul li a:hover{
+    color: #A6775B;
+    text-decoration: underline;
+}
+
+.socialiconos{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.socialiconos a { 
+    margin-right: 20px; 
+}
+
+.whatsApp, .facebook, .instagram, .correo{
+    width: 23px;
+    transition: transform 2s ease;
+    transform-origin: center;
+}
+
+.socialiconos img:hover{
+    transform: scale(1.2);
+}
+
+a { 
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-top: 80px;
+    padding-bottom: 100px;
+    position: relative; 
+    background: linear-gradient(to bottom, #D9D9D9 10%,#A6775B 90%);
+}
+
+
+.containerdos{
+    display: flex;
+    background-color: #A6775B;
+    padding: 30px; 
+    align-items: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    min-width: 100%;
+
+    border-radius: 10px;
+    transition: transform 2ms ease-in-out;
+}
+
+.containerdos p{
+    letter-spacing: 1.2px;
+}
+
+.principal{
+    flex: 1;
+}
+
+.principal-lado{
+    display: flex;
+}
+
+.texto1{
+    font-size: 23px;
+    color: #A6775B;
+}
+
+.texto2{
+    font-size: 28px;
+    color: #024873;
+}
+
+.texto3{
+    font-size: 15px;
+    color: #3F403E;
+}
+
+.negrita{
+    font-weight: 500;
+}
+
+.imagesportada{
+    width: 160px;
+    height: 150px;
+}
+
+.circle{
+    width: 160px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden; 
+    margin: 0.8rem;
+    animation: float 5s ease-in-out infinite;
+}
+
+footer{
+    background-color: #034C8C;
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+    color:#D9D9D9;
+    font-size: 0.8em;
+    margin-top: 140px; 
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 90%;
+    animation: slide 20s infinite;
+}
+
+
+@keyframes float { 
+    0% { transform: translateY(0); } 
+    50% { transform: translateY(-20px); } 
+    100% { transform: translateY(0); }
+}
+
+
+.portada{
+    flex: 1;
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+.portadados{
+    display: flex;
+    flex: 1;
+}
+
+
+.imagenPortadas{
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.tituloPortada{
+    font-weight: 500;
+}
+
+.texto4{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.texto5{
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.texto6{
+    color: #024873;
+}
+
+
+
+
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    10% { transform: translateX(-5%); }
+    25% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    100% { transform: translateX(-325%); }
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; 
+    right: 40px;
+    bottom: 40px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.whatsapp-button:hover {
+    background-color: #20c356;
+    transform: scale(1.1);
+}
+
+.whatsapp-button i {
+    font-size: 30px;
+}
+
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.whatsapp-button {
+    animation: heartbeat 1.5s infinite;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+
+footer{
+    height: 100px; 
+    width: auto;      
+}
+
+.container-llamanos {
+    text-align: center;
+    margin-top: 90px; 
+  }
+
+  .message {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .button-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .call-button {
+    background-color: #A6775B;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+
+  .call-button:hover {
+    transform: scale(1.1);
+  }
+
+  .call-button i {
+    margin-left: 10px;
+    font-size: 24px;
+    opacity: 0; /* Ocultar el icono */
+    transition: opacity 0.3s ease;
+  }
+
+  .call-button:hover i {
+    opacity: 1; /* Mostrar el icono en hover */
+  }
+
+
+  .menu ul li a.active {
+    color: #A6775B; /* Esto define el color café */
+    font-weight:lighter; /* Opcional: resaltar el enlace */
+}
+
+
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    
+    .logo {
+        width: 100px; /* Tamaño del logo en dispositivos móviles */
+    }
+
+    h1{
+        font-size: 0.8em;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icono-hamburguesa{
+        display: flex;
+        margin-left: 15px;
+        width: 25px;
+        cursor: pointer;
+    }
+
+    .logo-container{
+        margin-left: 5px;
+    }
+
+    .menu, .socialiconos{
+        max-height: 0px;
+        overflow: hidden; 
+        transition: max-height 1s ease-out;
+    }
+
+    .menu.active, .socialiconos.active{
+        max-height: 500px;
+    }
+
+
+
+    .menu ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu ul li {
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+    }
+
+    .iconos {
+        margin-top: 10px;
+    }
+
+    .menu, .socialiconos{
+        margin-left: 20px;
+    }
+
+    .principal .texto1, .texto2, .texto3{
+        font-size: 0.63em;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .containerdos{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 35px;
+    }
+
+    
+
+    .principal {
+        position: relative;
+        top: -50px;
+        text-align: center;
+    }
+    
+
+    .principal-lado{
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .imagesportada{
+        width: 90px;
+        height: 80px;
+    }
+    
+    .circle{
+        width: 90px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden; 
+        margin: 0.14rem;
+    }
+
+    .portada{
+        width: 220px;
+        height: 160px;
+    }
+
+    .imagenPortadas{
+        width: 220px;
+        height: 160px;
+    }
+
+    .portada .texto4, .texto5, .texto6{
+        font-size: 0.63em;
+    }
+
+
+    footer{
+        height: 240px;       
+    }
+    
+    .piepagina{
+        padding-top: 50px;
+    }
+    
+   
+}
+
+
+
+
+
+
+  
