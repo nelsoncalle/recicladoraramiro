@@ -1,0 +1,15 @@
+version: 1
+frontend:
+  phases:
+    build:
+      commands: []  # No necesitas comandos para HTML/CSS/JS básicos
+  artifacts:
+    baseDirectory: /  # Busca archivos en la raíz del repositorio
+    files:
+      - '**/*.html'   # Incluye todos los HTML
+      - '**/*.css'    # Incluye todos los CSS
+      - '**/*.js'     # Incluye todos los JS
+      - '**/*.png'    # Incluye imágenes
+      - '**/*.jpg'
+  cache:
+    paths: []  # No necesitas cache
