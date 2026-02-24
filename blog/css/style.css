@@ -31,3 +31,9 @@ img{
     border-radius: 8px !important; 
 }
 
+
+.compro-split-joya {
+  width: 300px;   /* ancho fijo */
+  height: auto;   /* mantiene proporción */
+}
+
